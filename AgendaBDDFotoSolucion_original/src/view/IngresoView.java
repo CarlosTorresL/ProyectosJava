@@ -83,7 +83,7 @@ public class IngresoView extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 255, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 300, -1, -1));
 
         jButtonBuscar.setText("Buscar");
         jButtonBuscar.addActionListener(new java.awt.event.ActionListener() {
@@ -168,8 +168,8 @@ public class IngresoView extends javax.swing.JFrame {
         getContentPane().add(jtfFono, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, 86, -1));
 
         jLabel5.setText("<  foto  >");
-        jLabel5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 26, 99, 104));
+        jLabel5.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(302, 26, 255, 255));
 
         jLabel6.setText("Foto:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, -1));

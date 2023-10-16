@@ -29,9 +29,9 @@ public class AbrirBaseDeDatos {
 
               String pass = new String(""); //passwd del mysql
 
-              String url = "jdbc:mysql://localhost:3306/"+baseDeDatos;
+              String url = "jdbc:mysql://localhost:3306/"+baseDeDatos+"?characterEncoding=utf8";
 
-              Class.forName("com.mysql.jdbc.Driver").newInstance();//declaración del driver para conectarse
+              Class.forName("com.mysql.jdbc.Driver");//declaración del driver para conectarse
 
               con = DriverManager.getConnection(url,user,pass); //este conecta
             }
